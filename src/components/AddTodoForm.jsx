@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-function AddtodoForm(props) {
+
+function AddTodoForm(props) {
   const Activitiesarr = props.activityarr;
   const setActivitiesarr = props.setActivityarr;
   const [newActivity, setNewActivity] = useState("");
@@ -28,4 +29,4 @@ function AddtodoForm(props) {
     </div>
   );
 }
-export default AddtodoForm;
+export default AddTodoForm;
